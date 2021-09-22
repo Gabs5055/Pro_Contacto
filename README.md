@@ -115,6 +115,8 @@ Apex Integration Services
 Se recomienda usar el mismo Playground para todos los módulos solicitados. Excepto que se solicite crear uno nuevo en el enunciado del Módulo.
 Para revisar la resolución de los módulos, compartir la URL del perfil público de Trailhead en una liga dentro del Readme.
 
+https://trailblazer.me/id/gdeltororosas
+
 # EJERCICIO 5
 Explicar que son conceptualmente, qué datos almacenan en forma estándar y cómo se relacionan el resto (algunos no se relacionan entre sí) cada uno de los siguientes objetos de Salesforce:
 
@@ -144,6 +146,12 @@ Exportar el diagrama de Drawio, subirlo al repositorio y agregarlo dentro del re
 Se puede usar el schema builder de salesforce para entender las relaciones.
 
 https://trailhead.salesforce.com/content/learn/modules/data_modeling/schema_builder
+
+# EJERCICIO 6
+
+![image](https://user-images.githubusercontent.com/61442828/134262344-0374671b-092e-4eaf-bd12-0ae2e6f9e135.png)
+![image](https://user-images.githubusercontent.com/61442828/134263034-c035b8a2-f6fb-40c7-b57d-9989cb0147c1.png)
+
 
 
 # EJERCICIO 7
