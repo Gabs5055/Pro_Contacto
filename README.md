@@ -147,6 +147,9 @@ Se puede usar el schema builder de salesforce para entender las relaciones.
 
 https://trailhead.salesforce.com/content/learn/modules/data_modeling/schema_builder
 
+![Untitled Diagram](https://user-images.githubusercontent.com/61442828/135538499-32dd5f09-ab77-432e-8c84-0ce7572a4afe.png)
+
+
 # EJERCICIO 6
 
 ![image](https://user-images.githubusercontent.com/61442828/134262344-0374671b-092e-4eaf-bd12-0ae2e6f9e135.png)
