@@ -2,7 +2,6 @@
 Ejercicios resueltos 
 
 # EJERCICIO 2
-Las siguientes preguntas están orientadas a la comprensión del protocolo HTTP. Son agnósticas al lenguaje de programación, la idea es comprender los conceptos del estándar:
 
 
 ¿Qué es un servidor HTTP? 
@@ -80,72 +79,47 @@ En un request los headers son utilizados al lanzar una petición de validación,
 y el key conten type es la propiedad de la cabecera usada para indicar el contenido del recurso.
 
 # EJERCICIO 3
-Recomendamos previamente entender los conceptos de la sintaxis “json” antes de arrancar con los ejercicios.
-Descargar el POSTMAN (aplicación para realizar request como cliente), adjuntando un screen de resolución para cada ítem:
+
 
 Realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
 ![image](https://user-images.githubusercontent.com/61442828/133844440-f73baf37-1a12-49ed-acec-5e149eb32d99.png)
 
 
-Realizar un request POST a la URL anterior, y con body:
-{
-"name":"Tu nombre",
-"email":tunombre.tuapellido@procontacto.com.mx
-}
-Tip: (Marcar la opción “raw” como body)
 ![image](https://user-images.githubusercontent.com/61442828/133847484-35c06c74-e24e-4c24-b410-42a1128d0684.png)
 
 
-Realizar nuevamente un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
-¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
 ![image](https://user-images.githubusercontent.com/61442828/133847979-092463df-9227-4d6d-a42c-a55ee6e03a8d.png)
 Se puede ver que esta hecho el POST realizado en el ejercicio anterior.
 
 # EJERCICIO 4
-Solicitar usuario de Trailhead a ariel.tarsitano@procontacto.com.mx
-Cambiar el idioma de Trailhead a inglés.
-Realizar los siguientes módulos de Trailhead:
-Fundamento de la plataforma Salesforce
-Fundamentos de Apex y .NET
-Modelado de datos
-Fundamentos y base de datos de Apex
-Desencadenadores de Apex
-Apex Integration Services
- 
-Se recomienda usar el mismo Playground para todos los módulos solicitados. Excepto que se solicite crear uno nuevo en el enunciado del Módulo.
-Para revisar la resolución de los módulos, compartir la URL del perfil público de Trailhead en una liga dentro del Readme.
+
 
 https://trailblazer.me/id/gdeltororosas
 
+
 # EJERCICIO 5
-Explicar que son conceptualmente, qué datos almacenan en forma estándar y cómo se relacionan el resto (algunos no se relacionan entre sí) cada uno de los siguientes objetos de Salesforce:
-
-Lead
-Account
-Contact
-Opportunity
-Product
-PriceBook
-Quote
-Asset
-Case
-Article
-
-Los campos enumerarlos a través de una lista de texto en el Readme y las relaciones a través de un diagrama UML simple realizado con Drawio.
-Ejemplo de diagrama
-Drawio: https://app.diagrams.net/
-
-Que una cuenta tiene muchos contactos se representa de la siguiente manera:
 
 
+lead: El lead es un potencial cliente que demostró interés en un producto o servicio ofrecido por la marca a través de la interacción con contenidos y otros materiales.
 
-Completar el resto de las relaciones agregando el resto de los objetos enumerados.
+accounts: Las cuentas son compañías con las que hace negocios
 
-Exportar el diagrama de Drawio, subirlo al repositorio y agregarlo dentro del readme con la etiqueta para linkear imágenes.
+contact: los contactos son las personas que trabajan para dichas compañías.
 
-Se puede usar el schema builder de salesforce para entender las relaciones.
+opportunity: Son para realizar un seguimiento y gestionamiento de los contratos con oportunidad de salesforce es decir son acuerdos en curso.
 
-https://trailhead.salesforce.com/content/learn/modules/data_modeling/schema_builder
+product: Son los elementos y servicios que distribuye a clientes. Cada producto puede existir en múltiples listas de precios con precios diferentes.
+
+price book: Las listas de precios le permiten crear un conjunto personalizado de productos con precios de lista asociados para usos específicos.
+
+quote: un quote dentro de salesforce representa el precio propuesto de los productos o dervicios de tú empresa
+
+asset: respresenta un producto o servicio vendido por la empresa o un competidor que el cliente ya compro e instalo 
+
+case: Un caso es una pregunta, un comentario o un problema de un cliente. Al resolverlos tienes mejor customer experience 
+
+article: son documentos de información creados a partir de conocimiento, pueden incluir información sobre el proceso, preguntas frecuentes e información importante.
+
 
 ![Untitled Diagram](https://user-images.githubusercontent.com/61442828/135538499-32dd5f09-ab77-432e-8c84-0ce7572a4afe.png)
 
@@ -158,8 +132,7 @@ https://trailhead.salesforce.com/content/learn/modules/data_modeling/schema_buil
 
 
 # EJERCICIO 7
-Responder las siguientes preguntas brevemente sobre:
-Soluciones de Salesforce
+
 ¿Qué es Salesforce?
 Es una empresa de SaaS que tiene varios enfoques como lo es atencion al cliente, marketing, inteligencia artificial, gestion de comunidades y su producto mas popular es el CRM llamado sales cloud
 
@@ -176,7 +149,6 @@ Health Cloud se enfoca en las soluciones de compromiso con el paciente que permi
 ¿Qué es Marketing Cloud?
 Es una plataforma de Salesforce que se usa para invertir en estrategias de e-mail de marketing. Se puede personalizar, planificar y optimizar el customer journey conociendolos cada vez mejor, midiendo los resultados y sacandoles provecho 
 
-Funcionalidades de Salesforce
 
 ¿Qué es un RecordType?
 Los tipos de registro le permiten ofrecer distintos procesos comerciales, valores de lista de selección y formatos de página a diferentes usuarios. Puede crear tipos de registro para diferenciar sus negociaciones de ventas regulares de sus compromisos de servicios profesionales y ofrecer diferentes valores de lista de selección para cada uno.
@@ -224,7 +196,6 @@ Asigna trabajo únicamente a agentes cuyo estado de presencia es Disponible para
 ¿Para qué sirve la funcionalidad Chatter?
 Es una aplicación de colaboración en tiempo real de Salesforce que permite a sus usuarios trabajar juntos, comunicarse y compartir información
 
-Conceptos generales
 
 ¿Qué significa SaaS? 
 Software as a Service es decir que las empresas ofrecen su software como solucion a problemas
